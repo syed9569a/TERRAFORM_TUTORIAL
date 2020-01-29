@@ -1,17 +1,4 @@
-variable "ami-id" {
-  description = "AMI ID of ubuntu 18.04LTS eu-west-1"
-  default     = "ami-02df9ea15c1778c9c"
+variable "medium_instance" {
+  description = "Medium sized instance, 2 core cpu and 4GB of RAM"
+  default     = "t2.medium"
 }
-
-variable "instance-type" {
-  description = "Free tier EC2 Instance type"
-  default     = "t2.micro"
-}
-
-variable "pem-key" {
-  description = "Associated Key to SSH into the EC2 Instance"
-  default     = "example"
-}
-
-
-
