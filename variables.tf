@@ -1,6 +1,6 @@
 variable "ami-id" {
   description = "AMI ID of ubuntu 18.04LTS eu-west-1"
-  default     = "ami-02df9ea15c1778c9c"
+  default     = "ami-0123b531fc646552f"
 }
 
 variable "instance-type" {
